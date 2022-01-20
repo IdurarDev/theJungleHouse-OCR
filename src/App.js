@@ -2,7 +2,7 @@ import { Card } from './components/Card'
 import { Header } from './components/Header'
 import { Total } from './components/Total';
 
-import './style/App.css';
+import './style/Banner.css';
 
 function App() {
   return (
