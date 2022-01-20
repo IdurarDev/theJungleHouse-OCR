@@ -1,4 +1,5 @@
 export const Header = () => {
-  return (<h1>La maison jungle</h1>)
+  const title = 'La maison jungle'
+  return (<h1 className="lmj-banner">{title}</h1>)
 }
 
