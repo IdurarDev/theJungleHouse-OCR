@@ -8,11 +8,11 @@
   align-items: center;
 }
 
-lmj-title {
+.lmj-title {
   padding: 32px;
 }
 
-lmj-logo {
+.lmj-logo {
   height: 45px;
   width: 45px;
 }
