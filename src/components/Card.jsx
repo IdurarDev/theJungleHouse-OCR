@@ -1,9 +1,6 @@
-import { Fragment } from "react"
-
 export const Card = () => {
+  const title = 'mon panier';
   return (
-    <Fragment> 
-      <h2>mon panier</h2>
-    </Fragment>
+      <h2>{title}</h2>
   )
 }
