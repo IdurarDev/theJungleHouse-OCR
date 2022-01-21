@@ -11,8 +11,8 @@ let plantes = {
 } 
 
 export const Card = () => {
-  const title = 'mon panier';
-
+  const title = 'Mon panier :';
+ 
   return (
     <Fragment> 
       <aside className="lmj-card">
