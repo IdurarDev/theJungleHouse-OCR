@@ -1,4 +1,5 @@
 import { plantList } from "../datas/plantList";
+import { PlantItems } from "../components/PlantItems";
 import { CareScale } from "./CareScale";
 import '../style/ShoppingList.css'
 
@@ -23,6 +24,13 @@ export function ShoppingList() {
               { plant.isSpecialOffer ? sold : null}
               <CareScale careType='water' scaleValue={plant.water} />
               <CareScale careType='light' scaleValue={plant.light} />
+              <PlantItems
+                name='namePlant'
+                cover='cover'
+                id='id'
+                light='light'
+                water='water'
+              />
             </li>
         ))}
       </ul>
